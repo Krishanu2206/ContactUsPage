@@ -1,0 +1,33 @@
+/*CONTACT*/
+.contact {
+    width: 95vw;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+/*---MAP---*/
+.leaflet-container {
+    width: 100%;
+    height: 340px;
+    margin-top: 15px;
+}
+
+.headquarters-and-maps,
+.contact-form {
+    width: 90%;
+    height: 100%
+}
+
+#headquarter {}
+
+/* submission of contact form */
+.alert-contact-form-submission strong {
+    margin: auto;
+    font-size: 20px;
+}
