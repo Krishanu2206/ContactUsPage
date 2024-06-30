@@ -1,5 +1,4 @@
 import React, {useState, useEffect, useRef} from 'react'
-import Layout from '../components/layouts/layout'
 import MyMap from './Map.js';
 
 function Contact() {
@@ -33,7 +32,7 @@ function Contact() {
   };
 
   return (
-    <Layout>
+    <>
       {isformsubmitted && (
         <div className="alert alert-success alert-dismissible fade show text-center alert-contact-form-submission" role="alert"><strong>Thanks for your message!! We will reach out to you soon!!</strong>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onClick={(e)=>{
@@ -110,7 +109,7 @@ function Contact() {
       </div>
       
 
-    </Layout>
+    </>
   )
 }
 
