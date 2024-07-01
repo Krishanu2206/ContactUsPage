@@ -3,12 +3,17 @@
     width: 95vw;
     height: 100%;
     margin: auto;
+    margin-top: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
     justify-items: center;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /*---MAP---*/
@@ -30,4 +35,80 @@
 .alert-contact-form-submission strong {
     margin: auto;
     font-size: 20px;
+}
+
+.contact-info {
+    background-color: aliceblue;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.contact-info-phone,
+.contact-info-tollfree,
+.contact-info-email {
+    text-align: center;
+}
+
+/*ABOUT US*/
+.aboutus {
+    display: grid;
+    margin: auto;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 80vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.aboutuscontent {
+    width: 90%
+}
+
+#aboutusphoto {
+    width: 80%;
+    height: 80%
+}
+
+.aboutusphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PRIVACY POLICY PAGE */
+.policy {
+    display: grid;
+    margin: auto;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 80vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.policycontent {
+    width: 90%
+}
+
+#policyphoto {
+    width: 80%;
+    height: 80%
+}
+
+.policyphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
