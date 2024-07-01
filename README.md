@@ -1,4 +1,4 @@
-![ContactUsPage_photo](https://github.com/Krishanu2206/ContactUsPage/assets/145917880/61bd975f-3719-48ef-8d5b-f9bc4ea98929)
+![contactphoto](https://github.com/Krishanu2206/ContactUsPage/assets/145917880/f15381b2-9a9a-4d90-8325-a66fc67a429d)
 Step-1 : Fork the repository
 
 Step-2 : Make a React Project
